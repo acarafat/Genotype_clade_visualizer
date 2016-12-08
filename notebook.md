@@ -14,7 +14,23 @@ Distance matrix was created using MEGA5.2. We used Kimura-2 parametric model, Tr
 	`fmdv_dist_col.txt`
 	`fmdv_dist_mat.txt`
 
+## Genotype class
+
+Each isolate's genotype has been assigned in a csv file: `data/distance_matrix/labels_class.csv` 
 
 ## Multidimentional Scaling in R
 MDS script in `../Scripts` folder
 Script name: `clade_mds.R`
+Input:
+- Distance data in column form: `data/distance_matrix/fmdv_dist_col.csv`
+- Class assignment of isolates: `data/distance_matrix/labels_class.csv`
+
+Algo:
+- Create distance matrix from columnar format genetic distance data
+- Multidimensional scaling in 2 dimension using `cmdscale`
+- Use plot ang ggplot qplot for plotting
+- Tested gplot color by class from `labels_class.csv` file data
+
+
+
+
