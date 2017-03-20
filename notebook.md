@@ -25,12 +25,13 @@ Input:
 - Distance data in column form: `data/distance_matrix/fmdv_dist_col.csv`
 - Class assignment of isolates: `data/distance_matrix/labels_class.csv`
 
-Algo:
+## Algo:
 - Create distance matrix from columnar format genetic distance data
 - Multidimensional scaling in 2 dimension using `cmdscale`
 - Use plot ang ggplot qplot for plotting
 - Tested gplot color by class from `labels_class.csv` file data
 
-
+## Further Idea
+- MDS with three dimension and 3D plot visualization
 
 
